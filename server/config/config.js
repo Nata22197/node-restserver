@@ -2,7 +2,7 @@
 // ===========
 // Puerto
 // ===========
-process.env.PORT = process.env.PORT || 3000;
+process.env.PORT = process.env.PORT || 3001;
 
 // ==================
 // Entorno
@@ -17,7 +17,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 // 60 minutos
 // 24 horas
 // 30 dias
-process.env.EXPIRE_TOKEN = 60 * 60 * 24 * 30;
+process.env.EXPIRE_TOKEN = '48h';
 
 // ==================
 // SEED de autenticacino
